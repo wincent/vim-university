@@ -151,7 +151,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
     - `<`: last visual selection (`>` is end of last visual selection).
     - `^`: last place we left INSERT mode.
     - `.`: place where last change was made.
-  - Set a mark: `mark {mark}` (or shorter, `:k{mark}`).
+  - Set a mark: `:mark {mark}` (or shorter, `:k{mark}`).
   - Go to mark <code>`{mark}</code> (exact position within line).
   - Go to mark `'{mark}` (beginning of line contents).
   - For convenience: https://github.com/kshenoy/vim-signature
