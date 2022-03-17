@@ -45,6 +45,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - `zA`: toggle fold recursively.
   - `zv`: unfold folds to view cursor line (mnemonic: "view").
   - `:set foldlevelstart=1` (start with everything folded, `99` = start with nothing folded).
+  - `:set foldmethod=indent` vs `marker` (eg. `~/.config/nvim/init.lua`).
 
 ## Navigation
 
@@ -224,6 +225,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - `'gitcommit'`: `~/.config/nvim/ftplugin/gitcommit.lua`
   - `'markdown'`: `~/.config/nvim/ftplugin/markdown.lua`
 - Lua
+  - https://wincent.com/wiki/Lua_development_in_Neovim
 - Useful plug-ins:
   - undotree: https://github.com/mbbill/undotree
   - vim-easydir: https://github.com/duggiefresh/vim-easydir
@@ -232,11 +234,17 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - And many others: https://github.com/wincent/wincent/blob/main/.gitmodules
 - Pro-tip™️: Map `<leader>q` to `:q`, to avoid accidentally typing `q:`.
 - Useful settings
+  - `'colorcolumn'`
+  - `'cursorline'`
+  - `'shortmess'`
+  - `'switchbuf'` (see `usetab`, `uselast`)
+  - `'virtualedit'` (`block`)
 
 ## Debugging and troubleshooting
 
 - `:verbose set ...?`
 - `:verbose map <prefix>`
+- `'verbose'` and `'verboselog'`
 - Startup profiling: `vim --startuptime log.txt`
 
 ## Resources
@@ -252,5 +260,6 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - [neovim/neovim (Gitter)](https://gitter.im/neovim/neovim)
 - Books:
   - ["Practical Vim" by Drew Neil](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/)
+  - ["Vim Reference Guide" by Sundeep Agarwal](https://learnbyexample.github.io/vim_reference/)
 - Games and challenges:
   - [www.vimgolf.com](https://www.vimgolf.com/)
