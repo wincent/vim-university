@@ -28,7 +28,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
 - Tabs
   - `:tabe`
   - `CTRL-W T`
-  - `gT`/`gT` next/previous
+  - `gt`/`gT` next/previous
 - tmux (Codespaces):
   - Splits (panes)
   - Windows
