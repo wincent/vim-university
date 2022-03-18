@@ -20,7 +20,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - `CTRL-W =` equalize window sizes (vertically and horizontally).
   - `CTRL-W t` jump to topmost window.
   - `CTRL-W b` jump to bottommost window.
-  - Common re-mappings:
+  - [Common re-mappings](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/plugin/mappings/normal.lua#L39-L42):
     - `CTRL-h` → `CTRL-W h` to focus window on left.
     - `CTRL-j` → `CTRL-W j` to focus window below.
     - `CTRL-k` → `CTRL-W k` to focus window above.
@@ -41,11 +41,11 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - `zR`: reduce fold level to minimum.
   - `zc`: close fold, `zC` close folds recursively.
   - `zo`: open fold, `zO` open folds recursively.
-  - `za`: toggle fold (Pro-tip™️: `<Tab>` is a good for mapping to this).
+  - `za`: toggle fold (Pro-tip™️: `<Tab>` is a good for [mapping to this](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/plugin/mappings/normal.lua#L29-L31)).
   - `zA`: toggle fold recursively.
   - `zv`: unfold folds to view cursor line (mnemonic: "view").
   - `:set foldlevelstart=1` (start with everything folded, `99` = start with nothing folded).
-  - `:set foldmethod=indent` vs `marker` (eg. `~/.config/nvim/init.lua`).
+  - `:set foldmethod=indent` vs `marker` (eg. [`~/.config/nvim/init.lua`](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/init.lua#L471)).
 
 ## Navigation
 
@@ -76,9 +76,9 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - `:A` go to alternate file
   - `:AS` open alternate in split
   - `:AV` open alternate in a horizontal split
-  - Sample configurations: `~/.config/nvim/after/plugin/projectionist.lua`
+  - Sample configurations: [`~/.config/nvim/after/plugin/projectionist.lua`](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/after/plugin/projectionist.lua)
 - LSP-powered navigation
-  - Example project: `~/code/masochist/next`
+  - Example project: [`~/code/masochist/next`](https://github.com/wincent/masochist/tree/next)
   - Go-to-definition, hover, autocomplete, inline diagnostics.
 - Search-based navigation
   - Quickfix list
@@ -105,8 +105,8 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
 - Jump list:
   - `:jumps`
   - `CTRL-o`, `CTRL-i`/`<Tab>`
-  - Filewise jumplist mappings: `~/.config/nvim/plugin/mappings/leader.lua`
-  - Mappings to store big jumps in jump list: `~/.config/nvim/plugin/mappings/normal.lua`
+  - Filewise jumplist mappings: [`~/.config/nvim/plugin/mappings/leader.lua`](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/plugin/mappings/leader.lua#L47-L49).
+  - Mappings to store big jumps in jump list: [`~/.config/nvim/plugin/mappings/normal.lua`](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/plugin/mappings/normal.lua#L56-L58)
 - `CTRL-^`: go to previous buffer (suggested mapping: `<Leader><Leader>`).
 - `gf`: go to file under cursor.
 - `CTRL-W f`: go to file under cursor, in split.
@@ -218,12 +218,12 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
 
 - Leader mappings:
   - `:let mapleader = " "` (Vimscript), or `vim.g.mapleader = ' '` (Lua)
-  - `~/.config/nvim/plugin/mappings/leader.lua`
+  - [`~/.config/nvim/plugin/mappings/leader.lua`](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/plugin/mappings/leader.lua)
 - Local leader:
   - `:let maplocalleader = "\\"` (Vimscript), or `vim.g.maplocalleader = '\\'` (Lua)
 - ftplugins
-  - `'gitcommit'`: `~/.config/nvim/ftplugin/gitcommit.lua`
-  - `'markdown'`: `~/.config/nvim/ftplugin/markdown.lua`
+  - `'gitcommit'`: [`~/.config/nvim/ftplugin/gitcommit.lua`](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/ftplugin/gitcommit.lua)
+  - `'markdown'`: [`~/.config/nvim/ftplugin/markdown.lua`](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/ftplugin/markdown.lua)
 - Lua
   - https://wincent.com/wiki/Lua_development_in_Neovim
 - Useful plug-ins:
