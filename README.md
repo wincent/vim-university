@@ -59,7 +59,11 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - Relative line numbers:
     - `:set number`
     - `:set relativenumber`
-    - `{count}j` move down `{count}` lines; `{count}k` move up; `{count} lines`; `{count}G` go to line
+    - `{count}j`: move down `{count}` lines
+    - `{count}k`: move up `{count}` lines
+  - Absolute line numbers:
+    - `{count}G`: go to line `{count}`
+    - `:[range]`: go to line `[range]` (eg. `:50`)
 - Scrolling:
   - `CTRL-E` scroll up by one line, `CTRL-Y` scroll down by one line (cursor stays).
   - `zz` center current cursor line in viewport.
@@ -116,7 +120,6 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
 - Motions
   - `h`, `j`, `k`, `l` for movement
   - `gj`, `gk` for virtual movement
-  - `gq{h,j,k,l}` to break up a big line
   - `w` forward to beginning of word, or `W` (WORD)
   - `b` back to beginning of word, or `B` (WORD)
   - `e` forward to end of word, or `E` (WORD)
@@ -211,6 +214,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
 - `gu{motion}` make lowercase
 - `gU{motion}` make uppercase
 - `g~{motion}` toggle case
+- `gq{motion}` format lines
 - `CTRL-a` increment number
 - `CTRL-x` decrement number
 - In INSERT mode, `CTRL-r ={expr}` to insert the value of an expression.
