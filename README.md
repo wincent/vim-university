@@ -41,7 +41,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - `zR`: reduce fold level to minimum.
   - `zc`: close fold, `zC` close folds recursively.
   - `zo`: open fold, `zO` open folds recursively.
-  - `za`: toggle fold (Pro-tip™️: `<Tab>` is a good for [mapping to this](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/plugin/mappings/normal.lua#L29-L31)).
+  - `za`: toggle fold (Pro-tip™️: `<Tab>` is a good for [mapping to this](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/plugin/mappings/normal.lua#L9-L10)).
   - `zA`: toggle fold recursively.
   - `zv`: unfold folds to view cursor line (mnemonic: "view").
   - `:set foldlevelstart=1` (start with everything folded, `99` = start with nothing folded).
@@ -59,7 +59,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - Relative line numbers:
     - `:set number`
     - `:set relativenumber`
-    - `{count}j` move down `{count}` lines; `{count}k` move up `{count} lines`
+    - `{count}j` move down `{count}` lines; `{count}k` move up; `{count} lines`; `{count}G` go to line
 - Scrolling:
   - `CTRL-E` scroll up by one line, `CTRL-Y` scroll down by one line (cursor stays).
   - `zz` center current cursor line in viewport.
@@ -116,6 +116,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
 - Motions
   - `h`, `j`, `k`, `l` for movement
   - `gj`, `gk` for virtual movement
+  - `gq{h,j,k,l}` to break up a big line
   - `w` forward to beginning of word, or `W` (WORD)
   - `b` back to beginning of word, or `B` (WORD)
   - `e` forward to end of word, or `E` (WORD)
