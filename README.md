@@ -11,6 +11,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
 
 - Splits:
   - `:sp`
+  - `:sp+te` split into a interactive terminal (exit terminal mode via ctrl+\+n).
   - `:vs`
   - `:on`
   - `CTRL-W {H,J,K,L}` move window to edge.
@@ -27,6 +28,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
     - `CTRL-l` → `CTRL-W l` to focus window on right.
 - Tabs
   - `:tabe`
+  - `:tabe+te` open a new tab with an interactive terminal (exit terminal mode via ctrl+\+n).
   - `CTRL-W T`
   - `gt`/`gT` next/previous
   - `{count}gt` jump to `{count}` indexed tab
