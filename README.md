@@ -19,6 +19,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - `CTRL-W _` maximize current window (vertically); count to size to specific height `10 CTRL-W _`.
   - `CTRL-W |` maximize current window (horizontally).
   - `CTRL-W =` equalize window sizes (vertically and horizontally).
+  - `CTRL-w T` pull the current window into a new tab
   - `CTRL-W t` jump to topmost window.
   - `CTRL-W b` jump to bottommost window.
   - [Common re-mappings](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/plugin/mappings/normal.lua#L39-L42):
