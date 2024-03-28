@@ -231,7 +231,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - `'gitcommit'`: [`~/.config/nvim/ftplugin/gitcommit.lua`](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/ftplugin/gitcommit.lua)
   - `'markdown'`: [`~/.config/nvim/ftplugin/markdown.lua`](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/ftplugin/markdown.lua)
 - Lua
-  - https://wincent.com/wiki/Lua_development_in_Neovim
+  - https://wincent.dev/wiki/Lua_development_in_Neovim
 - Useful plug-ins:
   - undotree: https://github.com/mbbill/undotree
   - vim-easydir: https://github.com/duggiefresh/vim-easydir
@@ -256,7 +256,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
 ## Resources
 
 - Screencasts and streams:
-  - [@greghurrell (YouTube)](https://wincent.com/link/screencasts)
+  - [@greghurrell (YouTube)](https://wincent.dev/link/screencasts)
   - [@teej_dv (Twitch)](https://www.twitch.tv/teej_dv)
   - [@ThePrimeagen (Twitch)](https://www.twitch.tv/theprimeagen)
   - [vimcasts.org](http://vimcasts.org/)
