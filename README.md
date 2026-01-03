@@ -51,7 +51,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
 ## Navigation
 
 - Movements/motions:
-  - `H`, `L`, `M` move cursor to high, middle, low positions.
+  - `H`, `M`, `L` move cursor to high, middle, low positions.
   - `CTRL-F` forward full screen, `CTRL-B` backward full screen.
   - `CTRL-D` down half screen, `CTRL-U` up half screen.
   - `{`, `}` move to previous/next blank line.
