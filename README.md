@@ -30,7 +30,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - `CTRL-W T`
   - `gt`/`gT` next/previous
   - `{count}gt` jump to `{count}` indexed tab
-- tmux (Codespaces):
+- tmux:
   - Splits (panes)
   - Windows
   - Sessions
