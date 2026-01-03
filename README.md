@@ -11,6 +11,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
 
 - Splits:
   - `:sp`
+  - `:sp+te` split into a interactive terminal (exit terminal mode via ctrl+\+n).
   - `:vs`
   - `:on`
   - `CTRL-W {H,J,K,L}` move window to edge.
@@ -18,6 +19,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
   - `CTRL-W _` maximize current window (vertically); count to size to specific height `10 CTRL-W _`.
   - `CTRL-W |` maximize current window (horizontally).
   - `CTRL-W =` equalize window sizes (vertically and horizontally).
+  - `CTRL-w T` pull the current window into a new tab
   - `CTRL-W t` jump to topmost window.
   - `CTRL-W b` jump to bottommost window.
   - [Common re-mappings](https://github.com/wincent/wincent/blob/b94dafbe4caefa76305e90a37ad9342264fff5af/aspects/nvim/files/.config/nvim/plugin/mappings/normal.lua#L39-L42):
@@ -27,6 +29,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
     - `CTRL-l` → `CTRL-W l` to focus window on right.
 - Tabs
   - `:tabe`
+  - `:tabe+te` open a new tab with an interactive terminal (exit terminal mode via ctrl+\+n).
   - `CTRL-W T`
   - `gt`/`gT` next/previous
   - `{count}gt` jump to `{count}` indexed tab
