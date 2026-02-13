@@ -95,7 +95,7 @@ Despite its reputation for minimalism, Vim has a surprising depth that rewards s
     - `:cnewer`
     - Pro-tip™️: `<Up>`, `<Down>`, `<Left>`, `<Right>` are good for mapping to these.
   - Location list:
-    - `:ln`
+    - `:lne`
     - `:lp`
     - `:lnf`
     - `:lpf`
